@@ -1,0 +1,182 @@
+html, body {
+    height: 100%;
+    color: white;
+    background-color: #242424;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 15px;
+    line-height: 1.2;
+}
+.content h1{
+    font-size: 35px;
+}
+.basic_information h1 {
+    font-size: 60px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.basic_information h2{
+    margin-top: 60px;
+    font-size: 35px;
+    color: #940d21;
+}
+.content h1 {
+    color: #940d21;
+}
+.ghosts h3 {
+    color: #940d4c;
+}
+h3 {
+    font-size: 27px;
+}
+.personality h3, .activity h3, .eq , .mind h3, .cursed_items h3, .cursed_hunt h3{
+    color: #940d21;
+} 
+.personality h4, .personality h5, .activity h4, .cursed_items h4 {
+    font-size: 24px;
+    color: #940d4c;
+}
+.personality h5, .equipment h5 {
+    font-size: 19px;
+    margin-bottom: 0;
+}
+.equipment h6  {
+    font-size: 17px;
+    margin: 10px 0;
+}
+.description {
+    color: #47a6b3;
+}
+.subject {
+    color: #4cad45;
+}
+.price {
+    color: #bec44b;
+    margin: 0;
+}
+.amount {
+    color: #b06d10;
+}
+.EMFtext {
+    margin-top: 0;
+}
+.detectorEMF {
+    margin-bottom: 0;
+}
+p {
+    font-size: 18px;
+}
+.equipment p {
+    font-size: 15px;
+}
+.equipment img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.first_name_table, .second_name_table, .third_name_table {
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.w_first_name_table, .w_second_name_table, .w_third_name_table ,.w_fourth_name_table{
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.first_surname_table, .second_surname_table, .third_surname_table {
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.personality img {
+    width: 750px;
+    height: 500px;
+}
+.equipment {
+    display: flex;
+    flex-wrap: wrap;
+}
+.radio a {
+    color: royalblue;
+}
+.parabolistic_micro,.motion_sensor, .salt, .sticks, .Crucifix , .thermometer, .lighter, .glowstick, .detectorEMF, .head_cam, .candle ,.powerful_flashlight,.flashlight , .camera , .dots
+, .sound_sensor, .uv_flashlight, .videocam, .radio, .notebook, .sanity_pills ,.tripod {
+    float: left;
+    margin-left: 20px;
+    width: 250px;  
+}
+.catalog h5 {
+    font-size: 20px;
+    margin-bottom: 0;   
+}
+.catalog li {
+   margin: 7px 0 0 7px;
+   font-size: 20px;
+}
+.catalog a {
+    text-decoration: none;
+    color: white;
+}
+.catalog a:visited {
+    color: white;
+}
+.catalog a:hover {
+    color: #940d4c;
+    text-decoration: underline ;
+}
+#Ouija_Board a {
+    color: royalblue;
+}
+#Ouija_Board img {
+    width: 400px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#Tarot_Cards table {
+    border-spacing: 50px 7px;
+}
+#Tarot_Cards .header {
+    text-align: center;
+    font-size: 23px;
+}
+#Tarot_Cards img {
+    width: 250px;
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#Voodoo_Doll img{
+    width: 250px;
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#music_box img{
+    width: 300px;
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#haunted_mirror img {
+    width: 300px;
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#summoning_circle img {
+    width: 350px;
+    height: 320px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.condition, .location , .age{
+    border-collapse: collapse;
+    border: 2px solid grey;
+}
+.condition td, .location td, .age td {
+    padding: 10px 100px 10px 5px;
+    border: 2px solid grey;    
+}
+.answers li {
+    margin-top: 10px;
+}
